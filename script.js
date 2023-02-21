@@ -4,6 +4,7 @@ const myAdd = document.getElementById("bttn");
 const myList = document.getElementById("list-holder");
 const Error = document.getElementById("error");
 
+/// Data save in local storage ///
 function myBookStore() {
   const todos = JSON.parse(localStorage.getItem("todos")) || [];
   let myObject = {};
@@ -17,6 +18,8 @@ function myBookStore() {
 }
 myAdd.addEventListener("click", myBookStore);
 
+
+/// Book Title and Author Name getting and displaying on the screen ///
 function myValueBook() {
   const myAuthorValue = myAuthor.value;
   const myTitleValue = myTitle.value;
@@ -34,6 +37,8 @@ function myValueBook() {
   myTitle.value = "";
   myAuthor.value = "";
 }
+
+/// Remove the items form List ////
 
 myAdd.addEventListener("click", myValueBook);
 
