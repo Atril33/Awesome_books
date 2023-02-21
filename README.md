@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 > This is my Our Awesome Books Project. I used _HTML, CSS & JAVASCRIPT_ to create this Awesome Books Project.
 
-**[Webpage]** This is my Programming Languages Website.
+**[Webpage]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -136,7 +136,7 @@ Example commands:
 
 ```sh
   cd my-folder
- https://github.com/Atril33/World_top_languages.git
+ https://github.com/Atril33/Awesome_books.git
 ```
 --->
 
