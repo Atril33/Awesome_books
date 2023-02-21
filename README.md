@@ -58,9 +58,9 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Awesome Books] <a name="about-project"></a>
 
 
-> This is my Awesome Books Project. I used _HTML, CSS & JAVASCRIPT_ to create this website.
+> This is Our Awesome Books Project. We used _HTML, CSS & JAVASCRIPT_ to create this website.
 
-> This is my Our Awesome Books Project. I used _HTML, CSS & JAVASCRIPT_ to create this Awesome Books Project.
+> This is Our Awesome Books Project. We used _HTML, CSS & JAVASCRIPT_ to create this Awesome Books Project.
 
 **[Webpage]**
 
