@@ -1,8 +1,8 @@
-const myTitle = document.getElementById("input");
-const myAuthor = document.getElementById("input1");
-const myAdd = document.getElementById("bttn");
-const myList = document.getElementById("list-holder");
-const Error = document.getElementById("error");
+const myTitle = document.getElementById('input');
+const myAuthor = document.getElementById('input1');
+const myAdd = document.getElementById('bttn');
+const myList = document.getElementById('list-holder');
+const Error = document.getElementById('error');
 
 const BOOKS_KEY = "awesome-books";
 let books = JSON.parse(localStorage.getItem(BOOKS_KEY)) || [];
