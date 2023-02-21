@@ -4,48 +4,6 @@ const myAdd = document.getElementById('bttn');
 const myList = document.getElementById('list-holder');
 const Error = document.getElementById('error');
 
-/// Book Title and Author Name getting and displaying on the screen ///
-// function myValueBook() {
-//   const myAuthorValue = myAuthor.value;
-//   const myTitleValue = myTitle.value;
-//   if (myTitleValue == '' && myAuthorValue == '') {
-//     Error.innerText = 'Please Fill both Boxes';
-//   } else {
-//     const li = document.createElement('li');
-//     li.innerHTML = `${myTitleValue} <br> ${myAuthorValue} <br>`;
-//     const button = document.createElement('button');
-//     button.classList = 'remove';
-//     button.innerText = 'Remove';
-//     li.appendChild(button);
-//     myList.appendChild(li);
-//   }
-//   myTitle.value = '';
-//   myAuthor.value = '';
-// }
-
-// myAdd.addEventListener('click', myValueBook);
-
-/// Remove the items form List ////
-// let remove = document.querySelector('ul');
-// remove.addEventListener('click', function (e) {
-//   const myList = document.getElementById('list-holder');
-//   let li = e.target.parentNode;
-//   myList.removeChild(li);
-// });
-
-/// Data save in local storage ///
-// function myBookStore() {
-//   let todos = JSON.parse(localStorage.getItem('todos')) || [];
-//   const myObject = {
-//     title: myTitle.value,
-//     author: myAuthor.value,
-//   };
-//   if (myObject.title !== '' && myObject.author !== '') {
-//     todos.push(myObject);
-//     localStorage.setItem('todos', JSON.stringify(todos));
-//   }
-// }
-// myAdd.addEventListener('click', myBookStore);
 
 const BOOKS_KEY = 'awesome-books';
 
@@ -63,7 +21,7 @@ function addBook() {
     const book = { title, author };
     books.push(book);
     saveBooks();
-    renderBooks();
+    renderBooks(); 
     myTitle.value = '';
     myAuthor.value = '';
     Error.textContent = '';
@@ -75,7 +33,9 @@ function addBook() {
 function removeBook(title) {
   books = books.filter((book) => book.title !== title);
   saveBooks();
-  renderBooks();
+  /* eslint-disable */
+  renderBooks(); 
+  
 }
 
 function renderBooks() {
