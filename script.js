@@ -1,8 +1,8 @@
-// const myTitle = document.getElementById('input');
-// const myAuthor = document.getElementById('input1');
-// const myAdd = document.getElementById('bttn');
-// const myList = document.getElementById('list-holder');
-// const Error = document.getElementById('error');
+const myTitle = document.getElementById('input');
+const myAuthor = document.getElementById('input1');
+const myAdd = document.getElementById('bttn');
+const myList = document.getElementById('list-holder');
+const Error = document.getElementById('error');
 
 /// Book Title and Author Name getting and displaying on the screen ///
 // function myValueBook() {
@@ -88,21 +88,17 @@ function renderBooks() {
   } else {
     books.forEach((book) => {
       const li = document.createElement('li');
-      li.textContent = `${book.title} by ${book.author}`;
+      li.innerHTML = `${book.title} <br/> ${book.author}  <br/>`;
       const removeBtn = document.createElement('button');
       removeBtn.textContent = 'Remove';
       removeBtn.addEventListener('click', () => removeBook(book.title));
       li.appendChild(removeBtn);
       myList.appendChild(li);
+      const hr = document.createElement('hr');
+      li.appendChild(hr);
     });
   }
 }
-
-const myTitle = document.getElementById('input');
-const myAuthor = document.getElementById('input1');
-const myAdd = document.getElementById('bttn');
-const myList = document.getElementById('list-holder');
-const Error = document.getElementById('error');
 
 myAdd.addEventListener('click', addBook);
 
