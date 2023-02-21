@@ -1,3 +1,6 @@
 # .gitignore
 node_modules/
+<<<<<<< Updated upstream
 .idea/
+=======
+>>>>>>> Stashed changes
