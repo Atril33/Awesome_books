@@ -4,7 +4,7 @@ const myAdd = document.getElementById('bttn');
 const myList = document.getElementById('list-holder');
 const Error = document.getElementById('error');
 
-const BOOKS_KEY = "awesome-books";
+const BOOKS_KEY = 'awesome-books';
 let books = JSON.parse(localStorage.getItem(BOOKS_KEY)) || [];
 function saveBooks() {
   localStorage.setItem(BOOKS_KEY, JSON.stringify(books));
