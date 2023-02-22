@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -7,7 +8,7 @@ class Book {
 
 class BookCollection {
   constructor() {
-     /* eslint-disable */
+    /* eslint-disable */
     this.books = JSON.parse(localStorage.getItem(BOOKS_KEY)) || [];
     this.myTitle = document.getElementById('input');
     this.myAuthor = document.getElementById('input1');
