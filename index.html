@@ -8,18 +8,45 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="container">
-      <h1 id="text">Awesome Books</h1>
+    <header>
+      <nav>
+        <h1 class="logo">Awesome Book</h1>
+        <ul class="my-nav-list">
+          <li class="nav-items" id="mylistshow">List</li>
+          <li class="nav-items" id="myaddbooks">Add New</li>
+          <li class="nav-items" id="mycontactview">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <center><section class="container">
+      <h2 id="text">Awesome Books</h2>
       <br />
       <ul id="list-holder"></ul>
-      <h1>Add a New Book</h1>
+      <div id="myinputs">
+      <h2>Add a New Book</h2>
       <input type="text" id="input" placeholder="Title" />
       <br /><br />
       <input type="text" id="input1" placeholder="Author" />
       <br /><br />
       <button id="bttn">Add</button>
       <p id="error"></p>
-    </section>
+      </div>
+    </section></center>
+    <div id="mycontact">
+      <h2>Contact information</h2>
+      <p class="paragraph">Do you have any questions or you just want to say "Hello"?
+        You can reach out to us!</p>
+        <ul class="contact-list">
+          <li>Our email: mail@mail.com</li>
+          <li>Our phone number: 00435 2217 2248 26</li>
+          <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+    </div>
+    <footer>
+      <nav>
+        <p>CopyrightsAll © rights reserved 2023</p>
+      </nav>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

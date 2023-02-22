@@ -1,16 +1,43 @@
 * {
-  list-style: none;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: sans-serif;
+  padding: 5px;
+}
+
+nav {
+  width: 99%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #000;
+}
+
+.logo {
+  margin: 0 30px;
+}
+
+.my-nav-list {
+  margin: 0 30px;
+}
+
+.nav-items {
+  display: inline-block;
+  margin: 0 5px;
+  border-right: 2px solid #000;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.nav-items:nth-child(3) {
+  border-right: none;
 }
 
 #text {
@@ -23,7 +50,8 @@ hr {
 }
 
 .container {
-  width: 500px;
+  margin-top: 50px;
+  width: 30%;
   text-align: center;
 }
 
@@ -43,8 +71,9 @@ hr {
 
 #input,
 #input1 {
-  margin-top: 5px;
-  padding: 0 3px;
+  margin-top: 2px;
+  width: 85%;
+  padding: 6px 10px;
   border: 2px solid #000;
 }
 
@@ -57,6 +86,36 @@ hr {
   padding: 2px 5px;
 }
 
-h1 {
+h2 {
   margin: 5px 0;
+  text-align: center;
+}
+
+footer nav {
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  margin: 0 30px;
+  font-weight: 900;
+}
+
+#mycontact {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  font-weight: 700;
+}
+
+.contact-list {
+  margin-top: 30px;
+}
+
+.contact-list li {
+  margin: 15px;
+  text-align: left;
+  margin-left: 20%;
 }
