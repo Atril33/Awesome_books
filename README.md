@@ -116,11 +116,10 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
+In order to run this project you need: to Clone the repo.
 <!--
 Example command:
-
+_git clone https://github.com/Atril33/Awesome_books.git_
 ```sh
  gem install rails
 ```
@@ -143,13 +142,13 @@ Example commands:
 ### Install
 
 Install this project with:
-_ You can simply download this project you don't need to install anything in your pc because it is a webpage.
+_ You can simply clone this project you don't need to install anything in your pc because it is a webpage.
 <!--
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  _git clone https://github.com/Atril33/Awesome_books.git_
 ```
 --->
 
@@ -157,7 +156,7 @@ Example command:
 
 To run the project, execute the following command:
 _ You can use it by download in your computer.
-
+ This is this link for this project _https://github.com/Atril33/Awesome_books.git_
 <!--
 Example command:
 
@@ -174,14 +173,14 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  _git clone_
 ```
 --->
 
 ### Deployment
 
 You can deploy this project using:
-
+Not Yet
 <!--
 Example:
 
@@ -209,6 +208,12 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/AtrilSyed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
+
+👤 **Peter**
+
+- GitHub: [@peter-akhigbe](https://github.com/peter-akhigbe)
+- Twitter: [@peter*akhigbe*](https://twitter.com/peter_akhigbe_)
+- LinkedIn: [peter-akhigbe](https://linkedin.com/in/peter-akhigbe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
