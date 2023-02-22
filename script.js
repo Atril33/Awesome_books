@@ -3,6 +3,7 @@ const myAuthor = document.getElementById('input1');
 const myAdd = document.getElementById('bttn');
 const myList = document.getElementById('list-holder');
 const Error = document.getElementById('error');
+const myText = document.getElementById('text');
 
 const BOOKS_KEY = 'awesome-books';
 let books = JSON.parse(localStorage.getItem(BOOKS_KEY)) || [];
@@ -45,14 +46,23 @@ function renderBooks() {
   } else {
     books.forEach((book) => {
       const li = document.createElement("li");
-      li.innerHTML = `${book.title} <br/> ${book.author}  <br/>`;
+      li.innerHTML = `${book.title} by ${book.author}  <br/>`;
+      li.classList = "list-items"
       const removeBtn = document.createElement("button");
       removeBtn.textContent = "Remove";
+      removeBtn.classList = "remove-bttn"
       removeBtn.addEventListener("click", () => removeBook(book.title));
       li.appendChild(removeBtn);
       myList.appendChild(li);
+      myList.style.border = "2px solid #000";
+      myText.style.display = "block";
       const hr = document.createElement("hr");
       li.appendChild(hr);
+      const myListItems = document.querySelectorAll('.list-items')
+      const myLength = myList.childElementCount;
+      for(let i = 0; i < myLength; i+=2) {
+        myListItems[i].style.backgroundColor = "#dddddd";
+      }
     });
   }
 }
@@ -60,3 +70,5 @@ function renderBooks() {
 myAdd.addEventListener("click", addBook);
 
 renderBooks();
+
+
