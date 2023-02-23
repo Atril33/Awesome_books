@@ -77,3 +77,50 @@ class BookCollection {
 
 const bookCollection = new BookCollection();
 bookCollection.init();
+
+const myListShow = document.getElementById('mylistshow');
+const myAddBooks = document.getElementById('myaddbooks');
+const myTitleText = document.getElementById('text');
+const myBookHide = document.getElementById('list-holder');
+const myInputSection = document.getElementById('myinputs');
+const myRedirectBttn = document.getElementById('bttn');
+const myContactView = document.getElementById('mycontactview');
+const myContact = document.getElementById('mycontact');
+
+myInputSection.style.display = 'none';
+myContact.style.display = 'none';
+
+function myBooksAll() {
+  myTitleText.style.display = 'block';
+  myBookHide.style.display = 'block';
+  myInputSection.style.display = 'none';
+  myContact.style.display = 'none';
+}
+
+myListShow.addEventListener('click', myBooksAll);
+
+function myBookAdd() {
+  myTitleText.style.display = 'none';
+  myInputSection.style.display = 'block';
+  myBookHide.style.display = 'none';
+  myContact.style.display = 'none';
+}
+
+myAddBooks.addEventListener('click', myBookAdd);
+
+function myButtonRedirect() {
+  myTitleText.style.display = 'block';
+  myBookHide.style.display = 'block';
+  myInputSection.style.display = 'none';
+}
+
+myRedirectBttn.addEventListener('click', myButtonRedirect);
+
+function myContactShow() {
+  myContact.style.display = 'block';
+  myTitleText.style.display = 'none';
+  myBookHide.style.display = 'none';
+  myInputSection.style.display = 'none';
+}
+
+myContactView.addEventListener('click', myContactShow);
