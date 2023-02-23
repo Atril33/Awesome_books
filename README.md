@@ -220,9 +220,6 @@ If you like this project...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-
-I would like to thank...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
