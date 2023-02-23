@@ -120,7 +120,8 @@ _git clone https://github.com/Atril33/Awesome_books.git_
 ### Setup
 
 Clone this repository to your desired folder:
-_ Opend CMD, Terminal or GitBash in your pc and type this command _https://github.com/Atril33/Awesome_books.git_
+_ Opend CMD, Terminal or GitBash in your pc and type this
+ _git clone command _https://github.com/Atril33/Awesome_books.git_
 
 <!--
 Example commands:
