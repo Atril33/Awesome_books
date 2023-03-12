@@ -56,7 +56,7 @@ class BookCollection {
         removeBtn.addEventListener('click', () => this.removeBook(book.title));
         li.appendChild(removeBtn);
         this.myList.appendChild(li);
-        this.myList.style.border = '2px solid #000';
+        this.myList.style.border = '3px solid #dddddd';
         myText.style.display = 'block';
         const hr = document.createElement('hr');
         li.appendChild(hr);
