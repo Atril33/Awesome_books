@@ -19,7 +19,7 @@
 - [📝 License](#license)
 
 # 📖 Awesome Books <a name="about-project"></a>
-> In this Awesome Book Project, We utilized my HTML, CSS, and JS skills with advanced syntax (ES6) to create a dynamic website where users can store their book and author names.
+> In this Awesome Book Project, We utilized our HTML, CSS, and JS skills with advanced syntax (ES6) to create a dynamic website where users can store their book and author names.
 
 ## 🛠 Built With <a name="built-with"></a>
 <details>
