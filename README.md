@@ -109,8 +109,8 @@ _Check Webhint errors_
 
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
-- [x] **Add Popup Model**
-- [x] **Preserve Contact Form Data in Browser**
+- [x] **Single Page Application(SPA)**
+- [x] **Preserve Data in Local Storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
