@@ -1,13 +1,14 @@
 $primary_color_1: #238ef1;
 $primary_color_2: #fff;
+
 nav {
-   background: $primary_color_1;
-   border: 0.70px solid #d8cfcf;
+  background: $primary_color_1;
+  border: 0.7px solid #d8cfcf;
 }
 
 .nav-items {
-    color: $primary_color_2;
-    font-size: 16px;
+  color: $primary_color_2;
+  font-size: 16px;
 }
 
 #myinputs {
