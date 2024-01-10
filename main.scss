@@ -1,4 +1,16 @@
-$primary_color: rgb(33, 82, 218);
+$primary_color_1: #238ef1;
+$primary_color_2: #fff;
 nav {
-   background: $primary_color;
+   background: $primary_color_1;
+   border: 0.70px solid #d8cfcf;
+}
+
+.nav-items {
+    color: $primary_color_2;
+    font-size: 16px;
+}
+
+#myinputs {
+  background: $primary_color_1;
+  border-radius: 14px;
 }

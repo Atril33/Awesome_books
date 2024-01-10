@@ -1,3 +1,14 @@
 nav {
-  background: rgb(33, 82, 218);
+  background: #238ef1;
+  border: 0.7px solid #d8cfcf;
+}
+
+.nav-items {
+  color: #fff;
+  font-size: 16px;
+}
+
+#myinputs {
+  background: #238ef1;
+  border-radius: 14px;
 }/*# sourceMappingURL=main.css.map */
